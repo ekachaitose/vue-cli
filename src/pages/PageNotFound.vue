@@ -5,3 +5,10 @@
     </h3>
   </div>
 </template>
+
+
+<style scoped>
+  h3 {
+    color:red;
+  }
+</style>
