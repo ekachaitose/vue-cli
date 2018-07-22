@@ -36,7 +36,7 @@ export default {
   },
   methods: {
       cssClass(field){
-      return `input${this.errors.has(field) ? 'is-danger': ''}`
+      return `input ${this.errors.has(field) ? 'is-danger': ''}`
       }
   }
   }

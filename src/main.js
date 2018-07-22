@@ -3,9 +3,12 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import routes from './routes'
 import VeeValidate from 'vee-validate'
-
+import dictionary from './dictionary'
 Vue.use(VueRouter)
-Vue.use(VeeValidate)
+Vue.use(VeeValidate, {
+  dictionary: dictionary,
+  locale: 'en'
+})
 Vue.config.productionTip = false
 
 const router = new VueRouter({
