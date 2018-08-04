@@ -8,6 +8,7 @@ import Pagination from './pages/Pagination.vue'
 import Search from './pages/Search.vue'
 import Column from './pages/Column.vue'
 import Nested from './pages/Nested.vue'
+import Vuex from './pages/Vuex.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 
 export default [
@@ -21,5 +22,6 @@ export default [
   { path: '/search', component: Search },
   { path: '/column', component: Column },
   { path: '/nested', component: Nested },
+  { path: '/vuex', component: Vuex },
   { path: '*', component: PageNotFound }
 ]

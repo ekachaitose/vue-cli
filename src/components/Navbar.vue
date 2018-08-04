@@ -27,8 +27,11 @@
         <div class="column is-1">
            <router-link to="/nested">Nested</router-link>
         </div>
+         <div class="column is-1">
+           <router-link to="/vuex">Vuex</router-link>
+        </div>
        </div>
-       </div>
+      </div>
    </nav>
   </div>
 </template>
