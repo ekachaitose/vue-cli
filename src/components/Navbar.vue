@@ -30,6 +30,9 @@
          <div class="column is-1">
            <router-link to="/vuex">Vuex</router-link>
         </div>
+        <div class="column is-1">
+           <router-link to="/product">Product</router-link>
+        </div>
        </div>
       </div>
    </nav>
