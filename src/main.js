@@ -4,6 +4,8 @@ import App from './App.vue'
 import routes from './routes'
 import VeeValidate from 'vee-validate'
 import dictionary from './dictionary'
+import store from './store'
+
 Vue.use(VueRouter)
 Vue.use(VeeValidate, {
   dictionary: dictionary,
@@ -17,5 +19,5 @@ const router = new VueRouter({
 })
 new Vue({
   render: h => h(App),
-  router: router
+  router, store
 }).$mount('#app')

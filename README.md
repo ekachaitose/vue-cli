@@ -1,5 +1,5 @@
 # vue-cli
-
+train Vuejs @ Silkspan duration 22/07/2018 ,04-05/08/2018
 ## Project setup
 ```
 yarn install
